@@ -95,7 +95,7 @@ audio = new Audio('' + linkmp3.src);
             setTimeout(() => {
               pindahHal(3);
             }, 800); // Durasi animasi disappear
-          }, 2500);
+          }, 1200);
 
           envelope.classList.remove('open');
           envelope.classList.add('close');
